@@ -1,0 +1,165 @@
+:root {
+    --redtone:#E50914;
+    --blacktone:#141414;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*---------- Header ----------*/
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    z-index: 10;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*---------- Adjustments Header Left Side ----------*/
+
+.nav_left {
+    display: flex;
+}
+
+#logo {
+    width: 105px;
+    margin: 0 30px 0 60px;
+}
+
+.nav_text {
+    margin: auto;
+    margin-right: 20px;
+    font-family: Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+}
+
+/*---------- Adjustments Header Right Side ----------*/
+
+.nav_right {
+    display: flex;
+}
+
+
+.nav_item {
+    width: 22px;
+    margin: auto;
+    margin-left: 25px
+}
+
+.nav_item_user {
+    width: 35px;
+    margin-right: 60px;
+    
+}
+
+.nav_item_user img{
+    border-radius: 5px;
+    
+}
+
+
+
+/*---------- Spotlight ----------*/
+
+.destaque {
+    width: 100%;
+    height: 810px;
+    background: url(../img/sense8_banner.jpg) no-repeat;
+    
+}
+
+.destaque_info {
+    position: relative;
+    top: 592px;
+    left: 60px;
+}
+
+.assistir {
+   background-color: white;
+   color: black;
+   padding: 18px 61px;
+   font-family: Helvetica;
+   font-size: 17px;
+   font-weight: 800;
+   border-radius: 5px;
+}
+
+.mais_info {
+    background-color: rgb(12, 1, 1, .5); 
+    color: white;
+    margin-left: 10px;
+    padding: 14px 61px;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 800; 
+    border-radius: 5px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+
+/*---------- Carrousel ----------*/
+
+.sections {
+    width: 100%;
+    height: 210px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.section_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    margin: 15px 0;
+}
+
+.caroussel {
+    display: flex;
+}
+
+/*
+.m_banner {
+    width: 300px;
+    height: 168px;
+    border-radius: 5px;
+    background-color: brown;
+
+}
+*/
+
+.item img {
+    border-radius: 5px;
+    width: 300px;
+    height: 168px;
+}
